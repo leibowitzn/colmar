@@ -9,26 +9,49 @@ header {
 
 
 }
+
+
 .meat {
     padding:32px 24px;
     display:inline-flex;
     justify-content:center;
+    flex-wrap: wrap;
 }
 
-.section {
+.meat img {
     width:100%;
-    margin-right:24px;
+}
+.section {
+    padding:32px 0px 32px 24px;
+    width:100%;
     display:inline-flex;
 }
 
 .L60 {
     width: 60%;
+    margin-right:24px;
 }
 
 .R40 {
     width: 40%;
+    display:inline-flex;
+    align-items:center;
 }
 
 .gray {
     background-color:lightslategray;
 }
+
+.top {
+    padding-right:24px;
+}
+
+button {
+    width: 80%;
+    padding:8px;
+    background-color:#423d3d;
+    color:white;
+    border:none;
+}
+
+.sidebar {}
