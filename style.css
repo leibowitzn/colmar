@@ -6,13 +6,27 @@ header {
     height:64px;
     width: 100%;
     margin: 0 24px;
-    
+
 
 }
 .meat {
     padding:32px 24px;
     display:inline-flex;
     justify-content:center;
+}
+
+.section {
+    width:100%;
+    margin-right:24px;
+    display:inline-flex;
+}
+
+.L60 {
+    width: 60%;
+}
+
+.R40 {
+    width: 40%;
 }
 
 .gray {
