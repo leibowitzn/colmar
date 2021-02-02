@@ -54,4 +54,20 @@ button {
     border:none;
 }
 
-.sidebar {}
+.practice .R40 {
+    display:inline-flex;
+    flex-wrap:wrap;
+
+}
+
+.sidebar {
+    display:inline-flex;
+    padding:16px 16px;
+    align-items:center;
+}
+
+.sidebar img {
+    width:35%;
+    height:35%;
+    margin-right:16px;
+}
