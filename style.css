@@ -5,6 +5,8 @@ html {
 body {
     margin:0 0;
 }
+
+/* get head here */
 header {
     box-sizing:border-box;
     height:64px;
@@ -24,6 +26,8 @@ header ul {
 header li {
     padding:16px;
 }
+
+
 .meat {
     position:relative;
     display:inline-flex;
@@ -138,4 +142,12 @@ button {
 .container{
     width:100%;
     display:inline-flex;
+}
+
+
+
+@media only screen and (max-width:800px;) {
+    header .mobile{
+        display:none;
+    }
 }
