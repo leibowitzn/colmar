@@ -36,10 +36,12 @@ header {
     width: 40%;
     display:inline-flex;
     align-items:center;
+    flex-wrap:wrap;
+
 }
 
 .gray {
-    background-color:lightslategray;
+    background-color:#dbdfe3;
 }
 
 .top {
@@ -55,8 +57,6 @@ button {
 }
 
 .practice .R40 {
-    display:inline-flex;
-    flex-wrap:wrap;
 
 }
 
@@ -70,4 +70,53 @@ button {
     width:35%;
     height:35%;
     margin-right:16px;
+}
+
+.sidebar h4 {
+    margin:0 0;
+}
+.sidebar p {
+    margin:8px 0px;
+}
+
+.strt-lrn {
+    justify-content:center;
+    flex-wrap:wrap;
+    padding: 32px 0px;
+}
+
+.wall {
+    margin:32px 72px;
+    display:inline-flex;
+    width:100%;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.brick {
+    background-color:white;
+    width:31%;
+    margin-bottom:12px;
+}
+
+.brick img {
+    width:100%;
+    height:auto;
+}
+
+.brick-text{
+    padding:16px 16px;
+}
+
+.brick-text h3 {
+    margin-top:0px;
+}
+
+.thesis{
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.container{
+    width:100%;
+    display:inline-flex;
 }
