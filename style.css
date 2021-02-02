@@ -1,18 +1,31 @@
 html {
-
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    margin:0 0;
 }
 header {
     box-sizing:border-box;
     height:64px;
     width: 100%;
     margin: 0 24px;
-
-
+    display:inline-flex;
+    align-items:center;
 }
-
-
+header ul {
+    flex:1;
+    list-style-type: none;
+    display:flex;
+    margin:0 0;
+    justify-content:flex-end;
+    padding-right:24px;
+}
+header li {
+    padding:16px;
+}
 .meat {
-    padding:32px 24px;
+    position:relative;
     display:inline-flex;
     justify-content:center;
     flex-wrap: wrap;
@@ -56,10 +69,10 @@ button {
     border:none;
 }
 
-.practice .R40 {
-
+.practice .L60 h2 {
+    margin-top:32px;
+    margin-bottom:24px;
 }
-
 .sidebar {
     display:inline-flex;
     padding:16px 16px;
@@ -86,7 +99,7 @@ button {
 }
 
 .wall {
-    margin:32px 72px;
+    margin:0px 72px;
     display:inline-flex;
     width:100%;
     justify-content:space-around;
@@ -116,6 +129,12 @@ button {
     justify-content:center;
     flex-wrap:wrap;
 }
+
+.section h2 {
+    margin-top:0px;
+    margin-bottom:32px;
+}
+
 .container{
     width:100%;
     display:inline-flex;
