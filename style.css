@@ -220,7 +220,8 @@ button {
     }
 
     .sidebar img {
-        width:100%
+        width:100%;
+        margin-right:0px;
     }
 
     .side-text {
