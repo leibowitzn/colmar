@@ -11,7 +11,7 @@ header {
     box-sizing:border-box;
     height:64px;
     width: 100%;
-    margin: 0 24px;
+    padding: 0 24px;
     display:inline-flex;
     align-items:center;
 }
@@ -21,12 +21,15 @@ header ul {
     display:flex;
     margin:0 0;
     justify-content:flex-end;
-    padding-right:24px;
 }
 header li {
     padding:16px;
 }
 
+header .desktop, .mobile {
+    display:inline-flex;
+    width:100%;
+}
 
 .meat {
     position:relative;
@@ -81,6 +84,7 @@ button {
     display:inline-flex;
     padding:16px 16px;
     align-items:center;
+    width:100%
 }
 
 .sidebar img {
@@ -129,6 +133,22 @@ button {
     margin-top:0px;
 }
 
+.strt-lrn ul {
+    list-style-type:none;
+    width:100%;
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 0;
+}
+
+.strt-lrn li {
+    padding:16px 16px;
+    background-color:#dbdfe3;
+    margin:8px 0px;
+    width:80%
+}
+
 .thesis{
     justify-content:center;
     flex-wrap:wrap;
@@ -144,10 +164,79 @@ button {
     display:inline-flex;
 }
 
+.container .R40 {
+    align-content:flex-start;
+}
 
-
-@media only screen and (max-width:800px;) {
-    header .mobile{
+@media only screen and (min-width:1000px) {
+    .mobile {
         display:none;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+     .desktop, header .desktop{
+        display:none;
+    }
+
+    ul {
+        padding:0 0;
+    }
+
+    header ul {
+        justify-content: space-around;
+    }
+
+    .section {
+        padding:32px 0px 32px 0px;
+    }
+
+    .top {
+        flex-wrap:wrap;
+        justify-content: center;
+        padding: 0 0 32px 0;
+    }
+
+    .L60 {
+        margin:0 0;
+        padding:0 0;
+    }
+
+    .top .R40 div {
+        padding: 0px 16px;
+    }
+
+    button {
+        width:100%;
+    }
+
+    .L60, .R40 {
+        width:100%;
+        justify-content:center;
+    }
+    
+    .sidebar {
+        flex-wrap:wrap;
+    }
+
+    .sidebar img {
+        width:100%
+    }
+
+    .side-text {
+        padding-top:8px;
+    }
+
+    .speaker {
+        background-color:white;
+    }
+
+    .strt-lrn {
+        background-color: white;
+        padding:0;
+    }
+
+    .strt-lrn h2 {
+        margin: 0px 0 16px 0;
     }
 }
